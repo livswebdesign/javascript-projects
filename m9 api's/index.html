@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h2> javascript geolocation</h2>
+<p>click the button to get your coordinates</p>
+<button onclick="getLocation()">try it</button>
+<p id="demo"></p>
+<br>
+<h2>javascript validation</h2>
+<p>enter a number and click OK: </p>
+<input id="id1" type="number" min="100" max="300" >
+<button onclick="myFunction()">OK</button>
+<p>if the number is less than 100 or greater than 300, an error message will be displayed.</p>
+<p id="demo2"></p>
+<h2>javascript validation range overflow</h2>
+<p>enter a number and click OK:</p>
+<input id="id2" type="number" max="100">
+<button onclick="myFunction()">OK</button>
+<p>if the number is greater than 100 (the inputs max attribute), an error message will be displayed.</p>
+<p id="demo3"></p>
+<h2> javascript validation range underflow</h2>
+<p>enter a number and click OK: </p>
+<input id="id3" type="number" min="100">
+<button onclick="myFunction()">OK</button>
+<p>if the number is less than 100 (the inputs min attribute), an error message will be displayed.</p>
+<p id="demo4"></p>
+<h2>history back</h2>
+<p>click this button to go back</p>
+<button onclick="myFunction()">Go Back</button>
+<h2>history go</h2>
+<p>click this button to go back 2 pages</p>
+<button onclick="myFunction()">Go Back 2 pages</button>
+<h2>javascript web workers API</h2>
+<p>Count numbers:<output id= "result"></output></p>
+<button onclick="startWorker()">start worker</button>
+<button onclick="stopWorker()">stop worker</button>
+<h2>fetch api</h2>
+<p id="demo6">fetch a file to change this text</p>
+<h2>javascript geolocation api</h2>
+<p> click the button to get your coordinates.</p>
+<button onclick="getLocation()">try it</button>
+<p id="demo7"></p>
+  <script src="app.js"></script>
+</body>
+</html>
